@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {//gotoEdificios();
+            public void onClick(View view) {Intent edificiosIntent = new Intent("com.victorrosas.cuerre.Historial");
+                startActivity(edificiosIntent);
             }
         });
         }

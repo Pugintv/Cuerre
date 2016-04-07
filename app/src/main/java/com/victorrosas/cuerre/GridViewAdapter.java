@@ -19,13 +19,15 @@ public class GridViewAdapter {
     private ArrayList data = new ArrayList();
 
     public GridViewAdapter(Context context, int layoutResourceId, ArrayList data) {
-        super(context, layoutResourceId, data);
+        //super(context, layoutResourceId, data);
         this.layoutResourceId = layoutResourceId;
         this.context = context;
         this.data = data;
     }
 
-    @Override
+
+
+   /* @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View row = convertView;
         ViewHolder holder = null;
@@ -45,7 +47,7 @@ public class GridViewAdapter {
         holder.imageTitle.setText(item.getTitle());
         holder.image.setImageBitmap(item.getImage());
         return row;
-    }
+    }*/
 
     static class ViewHolder {
         TextView imageTitle;

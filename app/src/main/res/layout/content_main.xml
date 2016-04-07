@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:orientation="vertical"
-    tools:context="com.javacodegeeks.androidstartactivityforresultexample.ActivityOne" >
+    tools:context="com.victorrosas.cuerre.MainActivity" >
 
     <TextView
         android:id="@+id/textView1"
@@ -27,7 +27,8 @@
         android:gravity="center"
         android:onClick="scanQR"
         android:text="QR Code"
-        android:textSize="18dp" >
+        android:textSize="18dp"
+        android:layout_marginBottom="20dp">
     </Button>
 
    <!--<Button
